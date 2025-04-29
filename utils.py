@@ -7,7 +7,7 @@ import re
 import pytesseract
 
 # Only needed on Windows
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 def extract_lab_tests(image_file):
     # Load image using PIL
